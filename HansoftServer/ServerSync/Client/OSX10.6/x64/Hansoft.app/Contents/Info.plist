@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BreakpadInProcess</key>
+	<string>YES</string>
+	<key>BreakpadProduct</key>
+	<string>Hansoft</string>
+	<key>BreakpadProductDisplay</key>
+	<string>Hansoft</string>
+	<key>BreakpadReportInterval</key>
+	<string>0</string>
+	<key>BreakpadRequestComments</key>
+	<string>YES</string>
+	<key>BreakpadRequestEmail</key>
+	<string>YES</string>
+	<key>BreakpadURL</key>
+	<string>https://error-reports.hansoft.se</string>
+	<key>BreakpadVendor</key>
+	<string>Hansoft AB</string>
+	<key>BreakpadVersion</key>
+	<string>9.0001</string>
+	<key>BuildMachineOSBuild</key>
+	<string>14B25</string>
+	<key>BuildTime</key>
+	<string>237148623605813339:7287675072187035040</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Hansoft</string>
+	<key>CFBundleIconFile</key>
+	<string>icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>se.hansoft.projectmanager</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Hansoft</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>9.0001</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLIconFile</key>
+			<string>icon</string>
+			<key>CFBundleURLName</key>
+			<string>Hansoft Link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>hansoft</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>9.0.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.p4generator</string>
+	<key>DTPlatformBuild</key>
+	<string>6A2008a</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14A382</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10</string>
+	<key>DTXcode</key>
+	<string>0611</string>
+	<key>DTXcodeBuild</key>
+	<string>6A2008a</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.6</string>
+	<key>MalterlibBranch</key>
+	<string>Hansoft/9.0</string>
+	<key>NSHighResolutionCapable</key>
+	<string>YES</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2015 Hansoft AB. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>ProductVersionExtra</key>
+	<string></string>
+	<key>ProductVersionMajor</key>
+	<string>9</string>
+	<key>ProductVersionMinor</key>
+	<string>0</string>
+	<key>ProductVersionRevision</key>
+	<string>001</string>
+</dict>
+</plist>
