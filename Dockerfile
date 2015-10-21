@@ -1,8 +1,30 @@
+#
+# Hansoft server Dockerfile
+#
+# https://github.com/patrikha/HansoftServer
+#
+
+# pull base image
 FROM ubuntu
-MAINTAINER patrik.hartlen@gmail.com
-COPY HansoftServer /opt/HansoftServer
+
+# install Hansoft server
+RUN
+  cd /tmp && \
+  wget http://cache.hansoft.se/Hansoft%20Server%209.0022%20Linux2.6%20x64.zip && \
+  unzip Hansoft\ Server\ 9.0022\ Linux2.6\ x64.zip && \
+  cp HansoftServer /opt/HansoftServer
 COPY server.config /opt/HansoftServer/
 COPY Backup /opt/HansoftServer/
 COPY run.sh /opt/HansoftServer/
+
+# define mountable directories
+VOLUME ["/opt/HansoftServer/Database"]
+
+# define working directory
 WORKDIR /opt/HansoftServer
+
+# define default run command
 CMD ./run.sh
+
+# expose Hansoft server port
+EXPOSE 50256
