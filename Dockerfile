@@ -18,9 +18,6 @@ COPY server.config /opt/HansoftServer/
 COPY Backup /opt/HansoftServer/
 COPY run.sh /opt/HansoftServer/
 
-# define mountable directories
-VOLUME ["/opt/HansoftServer/Database"]
-
 # define working directory
 WORKDIR /opt/HansoftServer
 
