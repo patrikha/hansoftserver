@@ -12,7 +12,7 @@ RUN \
   apt-get install -y wget unzip && \
   cd /tmp && \
   wget "http://cache.hansoft.se/Hansoft%20Server%209.0024%20Linux2.6%20x64.zip" && \
-  unzip Hansoft\ Server\ 9.0022\ Linux2.6\ x64.zip && \
+  unzip Hansoft\ Server\ 9.0024\ Linux2.6\ x64.zip && \
   cp -R HansoftServer /opt/
 COPY server.config /opt/HansoftServer/
 COPY Backup /opt/HansoftServer/
