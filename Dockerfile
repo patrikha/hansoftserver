@@ -9,10 +9,10 @@ FROM ubuntu
 
 # install Hansoft server
 RUN \
-  apt-get install -y wget unzip && \
+  apt-get install -y curl unzip && \
   cd /tmp && \
-  wget "http://cache.hansoft.se/Hansoft%20Server%209.1007%20Linux2.6%20x64.zip" && \
-  unzip Hansoft\ Server\ 9.1007\ Linux2.6\ x64.zip && \
+  curl -o HansoftServerX64.zip -A "Mozilla/5.0 (compatible; MSIE 7.01; Windows NT 5.0)" -L http://hansoft.com/downloads/latest-linux-server/ && \
+  unzip HansoftServerX64.zip && \
   cp -R HansoftServer /opt/
 COPY server.config /opt/HansoftServer/
 COPY Backup /opt/HansoftServer/
