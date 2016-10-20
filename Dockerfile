@@ -11,7 +11,7 @@ FROM progrium/busybox
 RUN \
   opkg-install curl unzip libuuid && \
   cd /tmp && \
-  curl -o HansoftServerX64.zip -A "Mozilla/5.0 (compatible; MSIE 7.01; Windows NT 5.0)" -L http://hansoft.com/downloads/latest-linux-server/ && \
+  curl -k -o HansoftServerX64.zip -A "Mozilla/5.0 (compatible; MSIE 7.01; Windows NT 5.0)" -L http://hansoft.com/downloads/latest-linux-server/ && \
   unzip -d /opt/ HansoftServerX64.zip && \
   rm HansoftServerX64.zip
 COPY server.config /opt/HansoftServer/
